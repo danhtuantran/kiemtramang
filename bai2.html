@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Bài2: Cho trước 1 mảng n phần tử. Viết code cho phép đếm xem có bao nhiêu phần tử a ( a được nhập vào tử bàn
+        phím)
+    </h1>
+    <script>
+
+
+        let mang = [4, 5, 6, 7, 8, 7, 9, 1];
+        let dem = 0;
+        let a = +prompt("Nhập số");
+        for (let i = 0; i < mang.length; i++) {
+            if (mang[i] === a) {
+                dem = dem + 1;
+            }
+        }
+        document.write("Số lượng các số " + a + " có trong mảng là: " + dem);
+    </script>
+
+</body>
+
+</html>
